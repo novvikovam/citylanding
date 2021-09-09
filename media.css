@@ -1,0 +1,104 @@
+@media (max-width: 1200px){
+  .container {
+      width: 90%;
+  }
+  iframe {
+    width: 100%;
+  }
+  .galery-item img {
+    width: 100%;
+  }
+  .galery-item {
+    flex-direction: column;
+  }
+  .galery-item:nth-child(2){
+    flex-direction: column-reverse;
+  }
+  .slogan h1 {
+    font-size: 44px;
+  }
+  .marketing p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page-header img {
+    margin-bottom: 10px;
+  }
+  .mainMenu {
+    width: 100%;
+  }
+  .mainMenulist {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .mainMenulist li {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .mainMenulist a {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform :uppercase;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .marketing {
+    width: 100%;
+  }
+  .about-weather-graph figcaption{
+    font-size: 18px;
+  }
+  .galery-item h3{
+    font-size: 24px;
+    line-height: 70px;
+  }
+  .transfer thead {
+    display: none;
+  }
+  .transfer span {
+    display: block;
+    position: absolute;
+    top : 0;
+    left : 0;
+    background-color: rgba(0, 38, 163, 0.336);
+    width: 100%;
+    padding: 5px 0;
+    color : white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .transfer tr {
+    display : flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .transfer td {
+    width : 46%;
+    padding-top: 35px;
+    position: relative;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-social {
+    padding: 12px 10px 0 0;
+    justify-content: center;
+  }
+
+}
